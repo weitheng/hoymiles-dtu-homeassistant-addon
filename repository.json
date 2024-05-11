@@ -1,5 +1,5 @@
 {
-  "name": "Hoymiles DTU Solar: Home Assistant Add-on",
-  "url": "https://github.com/banny310/hoymiles-dtu-homeassistant-addon",
-  "maintainer": "Szymon Banaś <banny310@gmail.com>"
+  "name": "Hoymiles DTU Solar: Home Assistant Add-on WiFi to MQTT",
+  "url": "https://github.com/weitheng/hoymiles-dtu-homeassistant-addon",
+  "maintainer": "Wei Theng <weitheng@duck.com>"
 }
