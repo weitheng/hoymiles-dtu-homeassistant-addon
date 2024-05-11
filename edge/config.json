@@ -1,6 +1,6 @@
 {
-  "name": "Hoymiles DTU Solar: Home Assistant Add-on",
-  "description": "Get solar data using direct communication with Hoymiles DTU",
+  "name": "Hoymiles DTU Solar: Home Assistant Add-on WiFi to MQTT",
+  "description": "Get solar data using direct communication with Hoymiles DTU via WiFi",
   "image": "banny310/hoymiles-dtu-{arch}",
   "version": "0.9.8",
   "slug": "hoymiles-dtu",
@@ -31,7 +31,8 @@
     },
     "app": {},
     "app_mode_active": {},
-    "app_mode_passive": {}
+    "app_mode_passive": {},
+    "mqtt": {}
   },
   "schema": {
     "dtu": {
@@ -49,6 +50,12 @@
     "app_mode_passive": {
       "set_server_send_time": "bool?",
       "server_send_time": "int?"
+    },
+    "mqtt": {
+      "host": "str",
+      "port": "port",
+      "username": "str",
+      "password": "str"
     }
   }
 }

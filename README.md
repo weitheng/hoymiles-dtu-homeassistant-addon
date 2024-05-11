@@ -1,7 +1,7 @@
 
-# Hoymiles DTU Solar Data Gateway Add-on
+# Hoymiles DTU Solar Data Gateway Add-on WiFi to MQTT
 
-An application to read Hoymiles Gateway Solar Data using direct communication with Hoymiles DTU
+An application to read Hoymiles Gateway Solar Data using direct communication with Hoymiles DTU via WiFi
 
 I have done this addon to integrate my solar system data with our [Home Assistant](https://www.home-assistant.io/) instance.
 
